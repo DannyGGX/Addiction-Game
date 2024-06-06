@@ -8,6 +8,8 @@ using UnityEngine.Events;
 public class DialogueViewer : MonoBehaviour {
     [SerializeField] Transform parentOfResponses;
     [SerializeField] Button prefab_btnResponse;
+    [SerializeField] float yOffestBetweenResponseButtons = 20f;
+    [Space]
     [SerializeField] SlowTyper txtMessage;
     [SerializeField] SlowTyper txtTitle;
     [SerializeField] Image imgMemory;
@@ -41,10 +43,12 @@ public class DialogueViewer : MonoBehaviour {
         KillAllChildren( parentOfResponses );
  
         UnityAction typeResponsesAfterMessage = delegate {
+            Vector3 curPos = parentOfResponses.position;
             for ( int i = newNode.responses.Count-1; i >= 0; i-- ) {
                 int currentChoiceIndex = i;
                 var response = newNode.responses[i];
-                var responceButton = Instantiate( prefab_btnResponse, parentOfResponses );
+                var responceButton = Instantiate( prefab_btnResponse, curPos, Quaternion.identity, parentOfResponses );
+                curPos.y -= yOffestBetweenResponseButtons;
                 responceButton.GetComponentInChildren<SlowTyper>().Begin(false, response.displayText);
                 responceButton.onClick.AddListener( delegate { OnNodeSelected( currentChoiceIndex ); } );
             }

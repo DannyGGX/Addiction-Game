@@ -10,7 +10,8 @@ Alcohol Addiction Story
  "zoom": "1",
  "start": "Monday Morning Hangover",
  "tag-colors": {
-  "START": "green"
+  "START": "green",
+  "END": "orange"
  }
 }
 
@@ -300,30 +301,30 @@ Choices:
 Decide to attend a support group meeting that evening to seek additional help.[[Finding Hope through Support]]
 Look up therapists after work, feeling that professional help is necessary.[[Professional Help and Recovery]]
 
-:: Finding Hope through Support {"position":"1950,650","size":"100,100"}
+:: Finding Hope through Support [END] {"position":"1950,650","size":"100,100"}
 Scene: John attends the support group meeting and finds the strength and support he needs to begin his recovery journey.
 
 Story:
 John nervously walks into the community center, his heart pounding. The support group leader greets him warmly, and he takes a seat among the others. As the meeting progresses, he listens to their stories and shares his own. The sense of camaraderie and understanding fills him with a hope he hasn’t felt in a long time. With the group’s support, he starts attending regularly, finding strength in their shared experiences. Slowly but surely, he begins to rebuild his life, one step at a time.
 
-Ending 1
+Ending 1 out of 6
 
-:: Professional Help and Recovery {"position":"1950,375","size":"100,100"}
+:: Professional Help and Recovery [END] {"position":"1950,375","size":"100,100"}
 Scene: John looks up therapists and starts attending sessions, gradually finding ways to cope with his struggles.
 
 Story:
 After work, John searches for local therapists and schedules an appointment. The first session is daunting, but as he talks through his feelings and fears, he begins to feel a weight lift off his shoulders. Over the weeks, his therapist helps him develop healthier coping mechanisms and strategies for managing his cravings. The road to recovery is long and challenging, but with professional guidance, John starts to see a future where he can thrive without alcohol.
 
-Ending 2
+Ending 2 out of 6
 
-:: Succumbing to the Struggle {"position":"1850,1000","size":"100,100"}
+:: Succumbing to the Struggle [END] {"position":"1850,1000","size":"100,100"}
 Scene: 
 John decides to continue trying to get through his days on his own, struggling with his cravings and loneliness.
 
 Story:
 John wakes up each day, pushing through his routine with a growing sense of desperation. The cravings and loneliness gnaw at him, and without proper support, he finds himself falling back into old habits. Despite occasional moments of clarity and attempts to change, the cycle of drinking and regret continues. His work suffers, and his relationships become more strained. John’s story is a somber reminder of the challenges of facing addiction alone, highlighting the crucial need for support and professional help.
 
-Ending 3
+Ending 3 out of 6
 
 :: Committing to Regular Attendance {"position":"1250,1225","size":"100,100"}
 Scene: 
@@ -360,14 +361,14 @@ Choices:
 
 Encourage other support group members to find their own hobbies, feeling a sense of community and support.[[Finding Strength in Community]]
 
-:: Volunteering at the Support Group {"position":"1425,1325","size":"100,100"}
+:: Volunteering at the Support Group [END] {"position":"1425,1325","size":"100,100"}
 Scene: 
 John considers volunteering at the support group to help others struggling with addiction.
 
 Story:
 Moved by the support he has received, John decides he wants to give back. He talks to Karen about volunteering, and she enthusiastically welcomes his offer. John begins helping set up meetings, greeting newcomers, and sharing his story to offer hope and encouragement. The act of helping others gives him a sense of fulfillment and strengthens his resolve to stay sober. His new role also deepens his connections within the group, and he starts to feel like a valued member of the community.
 
-Ending 6
+Ending 6 out of 6
 
 :: Leaving Early {"position":"1625,1200","size":"100,100"}
 Scene:
@@ -381,23 +382,23 @@ Choices:
 Decide to attend the next meeting, feeling more prepared for the emotional challenges.[[Overcoming Emotional Hurdles]]
 Consider seeking additional support through therapy to help manage his emotions.[[Professional Help and Recovery]]
 
-:: Overcoming Emotional Hurdles {"position":"1625,1375","size":"100,100"}
+:: Overcoming Emotional Hurdles [END] {"position":"1625,1375","size":"100,100"}
 Scene: 
 John balances attending the support group with seeking therapy, finding a path to recovery.
 
 Story:
 John continues to attend the support group while also seeking help from a therapist. The combination of community support and professional guidance helps him navigate the emotional hurdles of his recovery journey. He learns healthy coping mechanisms and gradually builds a life free from alcohol. The dual support systems provide him with a solid foundation, and he begins to thrive both personally and professionally. John’s journey is marked by perseverance and growth, and he emerges stronger and more resilient, ready to face whatever challenges come his way.
 
-Ending 5
+Ending 5 out of 6
 
-:: Finding Strength in Community {"position":"1250,1350","size":"100,100"}
+:: Finding Strength in Community [END] {"position":"1250,1350","size":"100,100"}
 Scene: 
 John continues attending the support group, takes up a new hobby, and eventually participates in a local art show.
 
 Story:
 With the support of the group and his newfound passion for painting, John’s life starts to change. He finds joy in creating art and shares his progress with the group, inspiring others to explore their own interests. His confidence grows, and he decides to participate in a local art show, showcasing his work. The event is a success, and John feels a deep sense of accomplishment. He continues to attend the support group, finding strength in the community and helping others along the way. John’s journey isn’t easy, but with the support of his new friends and his passion for art, he finds a way to live a fulfilling and sober life.
 
-Ending 4
+Ending 4 out of 6
 
 :: Putting It Off {"position":"1475,25","size":"100,100"}
 Scene: John decides to put off seeking professional help, opting to deal with his problems later.

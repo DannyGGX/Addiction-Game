@@ -56,20 +56,20 @@ public class SlowTyper : MonoBehaviour
         text.text = "";
         text.ForceMeshUpdate();
  
-        if (numLinesNeeded == -1)
-            text.text += "";
-        else if (numLinesNeeded <= 1)
-            text.text += "<size=130%><alpha=#00>x<alpha=#FF></size>" + "\n";
-        else if (numLinesNeeded == 2)
-        {
-            text.text += "<size=80%><alpha=#00>x<alpha=#FF></size>" + "\n";
-            numLinesNeeded = 0;
-        }
-        else if (numLinesNeeded >= 3)
-        {
-            text.text += "<size=30%><alpha=#00>x<alpha=#FF></size>" + "\n";
-            numLinesNeeded = 0;
-        }
+        // if (numLinesNeeded == -1)
+        //     text.text += "";
+        // else if (numLinesNeeded <= 1)
+        //     text.text += "<size=130%><alpha=#00>x<alpha=#FF></size>" + "\n";
+        // else if (numLinesNeeded == 2)
+        // {
+        //     text.text += "<size=80%><alpha=#00>x<alpha=#FF></size>" + "\n";
+        //     numLinesNeeded = 0;
+        // }
+        // else if (numLinesNeeded >= 3)
+        // {
+        //     text.text += "<size=30%><alpha=#00>x<alpha=#FF></size>" + "\n";
+        //     numLinesNeeded = 0;
+        // }
  
         InvokeRepeating("ShowOneMore", 0, delay);
     }
