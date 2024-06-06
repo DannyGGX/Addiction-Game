@@ -21,19 +21,19 @@ public class MainMenu : MonoBehaviour
     {
         MainScreen.SetActive(true);
         StartButton.onClick.AddListener(StartGame);
-        CreditsButton.onClick.AddListener(GoToCredits);
-        OptionsButton.onClick.AddListener(GoToOptions);
+        // CreditsButton.onClick.AddListener(GoToCredits);
+        // OptionsButton.onClick.AddListener(GoToOptions);
         QuitButton.onClick.AddListener(QuitGame);
-        BackButton.onClick.AddListener(BackButtonClicked);
+        // BackButton.onClick.AddListener(BackButtonClicked);
     }
 
     private void OnDestroy()
     {
         StartButton.onClick.RemoveListener(StartGame);
-        CreditsButton.onClick.RemoveListener(GoToCredits);
-        OptionsButton.onClick.RemoveListener(GoToOptions);
+        // CreditsButton.onClick.RemoveListener(GoToCredits);
+        // OptionsButton.onClick.RemoveListener(GoToOptions);
         QuitButton.onClick.RemoveListener(QuitGame);
-        BackButton.onClick.RemoveListener(BackButtonClicked);
+        // BackButton.onClick.RemoveListener(BackButtonClicked);
     }
 
     private void BackButtonClicked()
@@ -46,7 +46,7 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
-        SceneManagerScript.Instance.LoadScene(Scenes.Level1);
+        SceneManagerScript.Instance.LoadScene(Scenes.MainTestScene);
     }
 
     private void GoToCredits()

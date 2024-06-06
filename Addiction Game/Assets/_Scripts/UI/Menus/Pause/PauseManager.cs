@@ -18,6 +18,8 @@ public class PauseManager : MonoBehaviour
         {
             Destroy(this);
         }
+        
+        SetPauseState(false);
     }
 
     public void PauseToggle()

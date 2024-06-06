@@ -458,6 +458,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4860561601346654700, guid: fd848b9019784bf4cbbecd90ab300bcf, type: 3}
+      propertyPath: targetFrameRate
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5082587404044069847, guid: fd848b9019784bf4cbbecd90ab300bcf, type: 3}
       propertyPath: m_Name
       value: Framerate Limiter
@@ -598,6 +602,14 @@ PrefabInstance:
     - target: {fileID: 1579089084212312078, guid: d394e2bd004f27845ae60bb5b3f103aa, type: 3}
       propertyPath: m_Name
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238364689074791454, guid: d394e2bd004f27845ae60bb5b3f103aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 313.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943809917375684772, guid: d394e2bd004f27845ae60bb5b3f103aa, type: 3}
+      propertyPath: m_text
+      value: Alcohol Addiction Game
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
