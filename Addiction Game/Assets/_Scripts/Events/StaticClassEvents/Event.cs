@@ -54,3 +54,23 @@ public class Event<T>
         _event -= listener;
     }
 }
+
+public class Event<T1, T2>
+{
+    private event Action<T1, T2> _event = delegate {  };
+    public void Invoke(T1 parameter1, T2 parameter2)
+    {
+        _event?.Invoke(parameter1, parameter2);
+    }
+
+    public void Subscribe(Action<T1, T2> listener)
+    {
+        _event -= listener; //Remove subscriber in case already subscribed. If not subscribed, does nothing.
+        //Not safe for multi-threading
+        _event += listener;
+    }
+    public void Unsubscribe(Action<T1, T2> listener)
+    {
+        _event -= listener;
+    }
+}

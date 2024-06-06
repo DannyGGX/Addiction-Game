@@ -1,21 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
+using UnityUtils;
 using Array = System.Array;
 
-public class SceneManagerScript : MonoBehaviour
+public class SceneManagerScript : Singleton<SceneManagerScript>
 {
-    public static SceneManagerScript Instance { get; private set; }
-
     [SerializeField] private ScenesSO scenes;
-
-    private void Awake()
-    {
-        if (Instance == null)
-            Instance = this;
-        else
-            Destroy(this);
-    }
 
     public void LoadScene(Scenes sceneName)
     {
@@ -32,5 +23,22 @@ public class SceneManagerScript : MonoBehaviour
 
         SceneManager.LoadScene(targetScene.BuildIndex);
     }
-
+    
+    public void LoadNextLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        currentSceneIndex++;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+    
+    private Scenes GetCurrentSceneName()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        return (Scenes)currentSceneIndex;
+    }
+    
+    public void RestartCurrentScene()
+    {
+        LoadScene(GetCurrentSceneName());
+    }
 }

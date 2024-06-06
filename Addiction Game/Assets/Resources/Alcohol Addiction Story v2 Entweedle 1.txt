@@ -1,0 +1,423 @@
+:: StoryTitle
+Alcohol Addiction Story
+
+:: StoryData
+{
+ "ifid": "14729584-4D6E-4E27-90C6-C61386EA15FD",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Monday Morning Hangover",
+ "tag-colors": {
+  "START": "green"
+ }
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Monday Morning Hangover [START] {"position":"825,600","size":"100,100"}
+Scene: 
+John wakes up to the blaring sound of his alarm, head pounding and mouth dry. The familiar fog of a hangover clouds his thoughts as he squints at the clock. It's already 8:30 AM, and he's supposed to be at work by 9. Panic mingles with the discomfort in his head, and he knows he needs to decide quickly.
+
+Story:
+John groans as he swings his legs over the side of the bed, his head throbbing with every movement. The room spins slightly, a testament to the amount he drank last night. He reaches for the glass of water on his nightstand, but it's empty, a cruel reminder of his forgotten intention to stay hydrated. Thoughts of work creep in, making his stomach churn with anxiety. He knows he's late, but the idea of facing another day in the drab office while feeling like this is almost unbearable. Memories of his recent divorce flash through his mind, intensifying the ache in his chest. He needs to make a decision now: drag himself to work or call in sick and try to recover.
+
+Choices:
+
+Go to work despite the hangover[[Pushing Through the Pain]] 
+Call in sick and stay home.[[Recovery Day]]
+
+:: Pushing Through the Pain {"position":"1050,625","size":"100,100"}
+Scene: 
+John decides to go to work despite his hangover. He quickly showers, dresses, and stumbles out the door, barely making it to the office on time.
+
+Story:
+John shuffles into the office, trying to appear as normal as possible. The fluorescent lights seem especially harsh today, and he can barely keep his eyes open. His boss, Mr. Thompson, gives him a disapproving look as he slides into his desk. The stack of paperwork awaiting him feels more daunting than ever. He tries to focus, but the words swim on the page. Just then, his colleague and drinking buddy, Dave, stops by his desk, grinning. "Rough night, huh?" he whispers, giving John a sympathetic pat on the shoulder.
+
+Choices:
+
+Confide in Dave about how you're really feeling.[[Confiding in Dave]]
+Brush off Dave's comment and try to focus on work.[[Trying to Focus on Work]]
+
+:: Recovery Day {"position":"825,750","size":"100,100"}
+Scene: 
+John decides to call in sick. He texts his boss and sinks back into bed, hoping for a few more hours of sleep.
+
+Story:
+John types out a quick message to his boss, claiming he's come down with something and won't make it in today. He sets his phone on silent and buries himself under the covers. The silence of his apartment is both comforting and suffocating. As he lies there, his thoughts drift to his ex-wife and the life they once shared. The pain of their separation is still raw, and he can't help but feel a pang of guilt for how things turned out. Eventually, sleep overtakes him, offering a temporary escape from his reality.
+
+Choices:
+
+After waking up, consider reaching out to a support group.[[Seeking Support]]
+Decide to distract yourself with television or video games.[[Seeking Distraction]]
+
+:: Seeking Support {"position":"825,900","size":"100,100"}
+Scene: 
+John wakes up in the late afternoon, feeling slightly better physically but still emotionally drained. The idea of reaching out for help crosses his mind, though it fills him with anxiety.
+
+Story:
+John sits up in bed, rubbing the sleep from his eyes. The headache has dulled, but the heaviness in his chest remains. He remembers a flyer he saw at the bar about a local support group for people struggling with addiction. The thought of opening up to strangers is terrifying, but he knows he can't continue on this path. He reaches for his laptop and searches for the support group’s details. His heart races as he dials the number, each ring amplifying his anxiety. Finally, a calm voice answers, and he stammers out his request for information about the next meeting.
+
+Choices:
+
+Decide to attend the support group meeting that evening.[[Attending the Support Group]]
+Feel overwhelmed and hang up, choosing to stay home instead.[[Overwhelmed by Anxiety]]
+
+:: Seeking Distraction {"position":"1000,775","size":"100,100"}
+Scene: 
+John wakes up later in the day, feeling slightly more rested but emotionally empty. He decides to distract himself with some entertainment to avoid thinking about his problems.
+
+Story:
+John rolls out of bed and heads to the living room. The silence of the apartment presses in on him, and he flips on the television to drown it out. He scrolls through the channels aimlessly, settling on a mindless sitcom. The laugh track and bright colors are a stark contrast to his mood, but it's a welcome distraction. Hours pass as he lets the shows wash over him, temporarily numbing the ache inside. As evening approaches, he contemplates ordering a pizza and cracking open a beer, but a small voice in the back of his mind warns against it.
+
+Choices:
+
+Give in to the temptation and order beer with the pizza.[[Giving in to Temptation]]
+Decide to order just the pizza and try to stay sober for the night.[[Staying Sober for the Night]]
+
+:: Attending the Support Group {"position":"1300,1075","size":"100,100"}
+Scene: 
+John decides to attend the support group meeting, feeling a mix of nervousness and hope.
+
+Story:
+John parks his car outside the community center, his heart pounding with anxiety. He takes a deep breath and walks in, following the signs to a small room at the end of the hallway. A few people are already seated in a circle, chatting quietly. A woman at the door greets him warmly and hands him a name tag. “Hi, I’m Karen. Welcome to our group.” John nods, managing a small smile. He finds an empty seat and listens as the meeting begins. People share their stories—some heartbreaking, others inspiring. When it’s his turn, John hesitates, but then starts talking about his recent struggles. The group listens without judgment, and for the first time in a long while, he feels understood and supported.
+
+Choices:
+
+Decide to share more about your struggles and commit to attending regularly.[[Committing to Regular Attendance]]
+Feel overwhelmed by the emotions and consider leaving early.[[Considering Leaving Early]]
+
+:: Overwhelmed by Anxiety {"position":"825,1050","size":"100,100"}
+Scene: 
+John feels overwhelmed by the thought of attending a support group and decides to stay home instead.
+
+Story:
+John hangs up the phone, his heart still pounding. The idea of baring his soul to strangers is too much to handle right now. He sinks back into his couch, feeling defeated. He knows he should seek help, but the fear of judgment and the effort it takes to face his problems head-on seem insurmountable. To distract himself, he grabs his phone and starts scrolling through social media, but the images of happy, successful people only deepen his sense of isolation.
+
+Choices:
+
+Decide to reach out to a close friend for support instead.[[Confiding in Dave]]
+Turn to alcohol to numb the overwhelming feelings.[[Giving in to Temptation]]
+
+:: Giving in to Temptation {"position":"1075,1050","size":"100,100"}
+Scene: 
+John decides to order beer along with his pizza, giving in to the temptation.
+
+Story:
+John picks up the phone and orders a pizza, adding a six-pack of beer to the order despite his earlier hesitation. When the delivery arrives, he cracks open a beer and takes a long, satisfying drink. The familiar buzz begins to take the edge off his anxiety, and he feels a brief moment of relief. As he eats and drinks, the television drones on, and he allows himself to sink into the numbness that alcohol brings. The night passes in a blur, and by the time he goes to bed, the feelings of guilt and self-loathing are already starting to creep back in.
+
+Choices:
+
+Wake up the next morning feeling regretful and consider reaching out for help again.[[Seeking Support]]
+Wake up and decide to continue drinking to avoid facing his problems.[[Succumbing to the Struggle]]
+
+:: Staying Sober for the Night {"position":"1200,750","size":"100,100"}
+Scene: 
+John decides to order just the pizza and try to stay sober for the night, despite the cravings.
+
+Story:
+John orders a pizza and deliberately avoids adding beer to the order. When the delivery arrives, he sits down with his food and tries to enjoy it without the usual accompaniment of alcohol. The cravings are strong, but he manages to resist, reminding himself that he needs to make a change. He spends the evening watching TV and trying to distract himself from the urge to drink. It's not easy, but as the night wears on, he feels a small sense of accomplishment for having stayed sober, even if just for one night.
+
+Choices:
+
+Feel encouraged by this small victory and consider seeking professional help.[[Encouraged by Small Victory]]
+Feel the weight of loneliness and decide to go to bed early to escape the cravings.[[Overwhelmed by Loneliness]]
+
+
+:: Confiding in Dave {"position":"1125,450","size":"100,100"}
+Scene: 
+John decides to confide in Dave about how he’s really feeling.
+
+Story:
+John sighs and looks at Dave, the concern in his friend's eyes prompting him to speak. "Yeah, it’s been rough," John admits, his voice low. "I've been struggling a lot since the divorce. I’ve been drinking more than I should. I don’t know how to handle it all." Dave listens intently, his expression softening. "Man, I’m really sorry to hear that. Maybe we can take a break from the bar scene for a while. You know, try something else to unwind?" John nods, appreciating the suggestion, but he feels the weight of his situation pressing down even harder now that he’s spoken the words out loud.
+
+Choices:
+
+Agree to Dave’s suggestion and plan to do something different after work.[[Trying Something New]]
+Express doubt that anything will help and consider talking to a professional.[[Considering Professional Help]]
+
+
+:: Trying to Focus on Work {"position":"1200,600","size":"100,100"}
+Scene: 
+John decides to brush off Dave’s comment and try to focus on work.
+
+Story:
+John forces a weak smile and waves Dave off. "Just a rough night, I’ll be fine," he says, turning his attention back to the mountain of paperwork. The day drags on painfully slowly. Every few minutes, his thoughts drift back to the divorce, his failures, and the growing reliance on alcohol. By lunchtime, he feels completely drained. He considers grabbing a bite to eat to clear his head, but the thought of facing the busy cafeteria seems unbearable. Instead, he stays at his desk, staring blankly at his computer screen, the hours ticking by with agonizing slowness.
+
+Choices:
+
+Decide to skip lunch and try to power through the rest of the day.[[Powering Through]]
+Go out for lunch alone, hoping the fresh air will help.[[Lunch Break Alone]]
+
+:: Trying Something New {"position":"1425,425","size":"100,100"}
+Scene: 
+John agrees to Dave's suggestion to try something different after work.
+
+Story:
+After work, John meets up with Dave, who suggests going for a walk in the nearby park instead of their usual trip to the bar. At first, the change feels awkward, but as they walk and talk, John starts to feel a bit lighter. They grab a coffee and find a bench, where Dave talks about his own struggles and how he’s found healthier ways to cope. John listens, grateful for the distraction and the support. By the end of the evening, he feels a glimmer of hope that maybe he can find other ways to deal with his pain.
+
+Choices:
+
+Decide to make this a regular thing with Dave to avoid the bar.[[Making it a Regular Thing]]
+Thank Dave for the support but feel doubtful about long-term change.[[Doubting Long-term Change]]
+
+
+:: Considering Professional Help {"position":"1200,200","size":"100,100"}
+Scene: 
+John expresses doubt that anything will help and considers talking to a professional.
+
+Story:
+"I don’t know, Dave. It feels like nothing really helps," John admits, his voice heavy with despair. Dave gives him a sympathetic look. "You ever thought about talking to someone professional? Like a therapist or a counselor? It might help more than you think." John nods slowly, the idea taking root in his mind. The thought of opening up to a stranger is daunting, but he knows he needs more help than what his friends can offer. He makes a mental note to look up local therapists when he gets home.
+
+Choices:
+
+Take Dave’s advice and search for a therapist that evening.[[Attending the Support Group]]
+Decide to put it off for now and deal with it later.[[Putting It Off]]
+
+:: Powering Through {"position":"1425,575","size":"100,100"}
+Scene: 
+John decides to skip lunch and try to power through the rest of the day.
+
+Story:
+John remains at his desk, trying to focus on his work but finding it increasingly difficult as the day wears on. His head throbs and his stomach churns from the lack of food and the residual effects of last night's drinking. By mid-afternoon, he's barely keeping it together, snapping at colleagues and making careless mistakes. Mr. Thompson, noticing John's state, calls him into his office and expresses concern about his performance. The reprimand stings, adding to John's already heavy burden.
+
+Choices:
+
+Apologize and promise to do better, feeling the pressure mount.[[Promising to Do Better]]
+Break down and admit to Mr. Thompson that you’re struggling.[[Admitting to Struggles]]
+
+:: Lunch Break Alone {"position":"1425,725","size":"100,100"}
+Scene: 
+John decides to go out for lunch alone, hoping the fresh air will help.
+
+Story:
+John steps out of the office, the fresh air hitting his face like a wake-up call. He walks to a nearby café, orders a sandwich, and sits by the window, watching people pass by. The solitude feels comforting, giving him a chance to clear his head. He thinks about his life, the choices he’s made, and the path he's on. As he takes a bite of his sandwich, he realizes that he can't keep living like this. Something needs to change, but he’s not sure where to start.
+
+Choices:
+
+Decide to visit a nearby bookstore and look for self-help books.[[Visiting the Bookstore]]
+Return to the office with renewed determination to get through the day.[[Returning to the Office]]
+
+:: Encouraged by Small Victory {"position":"1200,900","size":"100,100"}
+Scene: 
+John feels encouraged by his small victory of staying sober for the night and considers seeking professional help.
+
+Story:
+As John finishes his pizza, he feels a sense of accomplishment for resisting the urge to drink. It's a small victory, but it’s significant. He realizes that if he can manage one night without alcohol, maybe he can string together more nights like this. His thoughts turn to the support group meeting he considered attending. Maybe connecting with others who understand his struggles could provide the support he needs. With newfound determination, he looks up the details of the meeting again, feeling a mix of nervousness and hope.
+
+Choice:
+
+Decide to attend the support group meeting that evening.[[Attending the Support Group]]
+
+:: Overwhelmed by Loneliness {"position":"1475,1050","size":"100,100"}
+Scene: 
+John feels the weight of loneliness and decides to go to bed early to escape the cravings.
+
+Story:
+John finishes his pizza but can’t shake the feeling of emptiness that has settled over him. The TV no longer distracts him, and the silence of his apartment feels deafening. The cravings for alcohol are strong, but he knows that giving in will only lead to more regret. Feeling overwhelmed and exhausted by his thoughts, he decides to go to bed early, hoping that sleep will provide an escape from his cravings and loneliness. He lies in bed, staring at the ceiling, the darkness pressing in around him.
+
+As he drifts off, he thinks about how isolated he has become and how much he misses having someone to talk to. His mind wanders back to the idea of finding help, but for now, he just needs to rest. The decision to reach out to a support group or a professional feels distant, but the seed of change has been planted.
+
+Choices:
+
+~~Wake up the next morning and reconsider reaching out for help.~~
+Wake up and decide to try to get through another day on his own.[[Succumbing to the Struggle]]
+
+:: Making it a Regular Thing {"position":"1600,350","size":"100,100"}
+Scene: 
+John decides to make meeting Dave at the park a regular thing to avoid the bar.
+
+Story:
+As John and Dave sit on the park bench, the evening air cool and refreshing, John feels a small but growing sense of relief. "Thanks, Dave. This was... really good," John says, managing a smile. "Maybe we can make this a regular thing? It’s a lot better than the bar." Dave grins and nods, clapping John on the shoulder. "Absolutely. We’ll find other ways to unwind, healthier ways." John’s heart feels a little lighter, and he feels a spark of hope that maybe he can start to turn things around.
+
+Choices:
+
+After several weeks of these meetings, John starts feeling more stable and considers seeking further help.[[Professional Help and Recovery]]
+Despite the meetings, John feels the urge to drink and considers attending a support group for additional support.[[Finding Hope through Support]]
+
+:: Doubting Long-term Change {"position":"1600,225","size":"100,100"}
+Scene: 
+John thanks Dave for the support but feels doubtful about long-term change.
+
+Story:
+"Thanks for this, Dave. It was nice," John says, trying to sound more optimistic than he feels. Dave gives him an encouraging smile, but John can’t shake the doubt creeping in. Can this really make a difference? As they part ways, John feels a mix of gratitude and uncertainty. The park visit was a pleasant distraction, but the shadows of his problems still loom large. He heads home, trying to keep his spirits up but feeling the weight of his struggles pressing down.
+
+Choices:
+
+Later that night, John decides to search for a therapist, realizing he needs more help.[[Professional Help and Recovery]]
+
+:: Promising to Do Better {"position":"1600,475","size":"100,100"}
+Scene: 
+John apologizes to Mr. Thompson and promises to do better, feeling the pressure mount.
+
+Story:
+"I'm really sorry, Mr. Thompson," John says, struggling to keep his voice steady. "I promise I’ll do better." Mr. Thompson nods, his expression stern but not unkind. "I hope so, John. We need everyone at their best." As John returns to his desk, the pressure feels almost unbearable. He knows he’s on thin ice, and the fear of losing his job only adds to his stress. By the end of the day, he’s completely exhausted, both physically and emotionally, and he knows he needs to make some serious changes before things get worse.
+
+Choices:
+
+Consider attending the support group to find a way to manage his stress and drinking.[[Finding Hope through Support]]
+Decide to look up therapists after work, realizing he needs professional help.[[Professional Help and Recovery]]
+
+
+:: Admitting to Struggles {"position":"1600,600","size":"100,100"}
+Scene: 
+John breaks down and admits to Mr. Thompson that he’s struggling.
+
+Story:
+John’s eyes well up with tears as he looks at Mr. Thompson. "I’m really struggling, sir. Since the divorce... I’ve been drinking a lot, and I just feel lost." Mr. Thompson’s expression softens, and he sighs deeply. "I’m sorry to hear that, John. Have you considered talking to someone? A therapist, maybe? Or a support group?" John nods, wiping his eyes. "I’ve thought about it. I think... I need help." Mr. Thompson nods understandingly. "Take care of yourself, John. That’s the most important thing. We can work something out here." John feels a mix of relief and fear but knows this conversation is a crucial step.
+
+Choices:
+
+Decide to attend a support group meeting that evening.[[Finding Hope through Support]]
+Look up therapists after work, feeling more determined to get help.[[Professional Help and Recovery]]
+
+:: Visiting the Bookstore {"position":"1600,725","size":"100,100"}
+Scene: 
+John decides to visit a nearby bookstore and look for self-help books.
+
+Story:
+John finishes his sandwich and decides to take a walk to clear his head. He stumbles upon a small, cozy bookstore and steps inside, feeling a sense of calm wash over him. He wanders through the aisles, eventually finding the self-help section. As he scans the titles, one book catches his eye: "Overcoming Addiction: Finding Your Path to Recovery." He picks it up and starts reading, feeling a glimmer of hope that maybe, just maybe, he can find a way out of his current struggles. He buys the book and heads back to work, feeling slightly more optimistic about the future.
+
+Choices:
+
+Read the book over the next few days and decide to attend a support group.[[Finding Hope through Support]]
+Feel encouraged by the book and look up therapists for additional support.[[Professional Help and Recovery]]
+
+:: Returning to the Office {"position":"1600,875","size":"100,100"}
+Scene: 
+John decides to return to the office with renewed determination to get through the day.
+
+Story:
+Feeling a bit refreshed from his walk and lunch, John heads back to the office with a newfound determination. He sits at his desk, taking a deep breath before diving back into his work. The afternoon goes by more smoothly than the morning, and he manages to finish his tasks with fewer mistakes. By the end of the day, he feels a sense of accomplishment, albeit a small one. As he heads home, he thinks about the changes he needs to make to keep moving in the right direction.
+
+Choices:
+
+Decide to attend a support group meeting that evening to seek additional help.[[Finding Hope through Support]]
+Look up therapists after work, feeling that professional help is necessary.[[Professional Help and Recovery]]
+
+:: Finding Hope through Support {"position":"1950,650","size":"100,100"}
+Scene: John attends the support group meeting and finds the strength and support he needs to begin his recovery journey.
+
+Story:
+John nervously walks into the community center, his heart pounding. The support group leader greets him warmly, and he takes a seat among the others. As the meeting progresses, he listens to their stories and shares his own. The sense of camaraderie and understanding fills him with a hope he hasn’t felt in a long time. With the group’s support, he starts attending regularly, finding strength in their shared experiences. Slowly but surely, he begins to rebuild his life, one step at a time.
+
+Ending 1
+
+:: Professional Help and Recovery {"position":"1950,375","size":"100,100"}
+Scene: John looks up therapists and starts attending sessions, gradually finding ways to cope with his struggles.
+
+Story:
+After work, John searches for local therapists and schedules an appointment. The first session is daunting, but as he talks through his feelings and fears, he begins to feel a weight lift off his shoulders. Over the weeks, his therapist helps him develop healthier coping mechanisms and strategies for managing his cravings. The road to recovery is long and challenging, but with professional guidance, John starts to see a future where he can thrive without alcohol.
+
+Ending 2
+
+:: Succumbing to the Struggle {"position":"1850,1000","size":"100,100"}
+Scene: 
+John decides to continue trying to get through his days on his own, struggling with his cravings and loneliness.
+
+Story:
+John wakes up each day, pushing through his routine with a growing sense of desperation. The cravings and loneliness gnaw at him, and without proper support, he finds himself falling back into old habits. Despite occasional moments of clarity and attempts to change, the cycle of drinking and regret continues. His work suffers, and his relationships become more strained. John’s story is a somber reminder of the challenges of facing addiction alone, highlighting the crucial need for support and professional help.
+
+Ending 3
+
+:: Committing to Regular Attendance {"position":"1250,1225","size":"100,100"}
+Scene: 
+John decides to share more about his struggles and commit to attending the support group regularly.
+
+Story:
+As the weeks go by, John becomes more comfortable sharing his experiences with the group. He finds solace in the stories of others and begins to realize he’s not alone in his fight. The support group becomes a vital part of his routine, offering him the strength to resist the urge to drink. He also starts building friendships with other members, who encourage him to seek additional help through therapy and healthy hobbies. Slowly but surely, John starts to see progress in his recovery.
+
+Choices:
+
+John decides to take up a new hobby suggested by a group member, feeling more optimistic about his future.[[Taking Up a New Hobby]]
+John considers volunteering at the support group to help others struggling with addiction.[[Volunteering at the Support Group]]
+
+:: Considering Leaving Early {"position":"1450,1200","size":"100,100"}
+Scene: 
+John feels overwhelmed by the emotions and considers leaving the support group meeting early.
+
+Story:
+As John listens to the raw and honest stories of others, he feels a wave of emotion threaten to overwhelm him. The intensity of the meeting brings up painful memories and feelings he’s been trying to avoid. He glances at the door, contemplating leaving. But then Karen, the group leader, speaks gently. “It’s okay to feel overwhelmed. This is a safe space. You can take it one step at a time.” John takes a deep breath and decides to stay a bit longer, finding comfort in the group’s supportive atmosphere.
+
+Choices:
+
+~~Stay until the end of the meeting, feeling a bit more reassured and considering coming back next week.~~
+Leave the meeting early, but promise yourself to try again next time.[[Leaving Early]]
+
+:: Taking Up a New Hobby {"position":"1075,1350","size":"100,100"}
+Scene: 
+John decides to take up a new hobby suggested by a group member, feeling more optimistic about his future.
+
+Story:
+Inspired by a fellow group member’s story about finding peace through painting, John decides to give it a try. He buys some supplies and sets up a small corner in his apartment dedicated to his new hobby. At first, it feels awkward, but gradually, he begins to enjoy the process of creating art. It becomes a therapeutic outlet for his emotions and a way to distract himself from cravings. As he immerses himself in painting, he starts to feel a renewed sense of purpose and hope for the future.
+
+Choices:
+
+Encourage other support group members to find their own hobbies, feeling a sense of community and support.[[Finding Strength in Community]]
+
+:: Volunteering at the Support Group {"position":"1425,1325","size":"100,100"}
+Scene: 
+John considers volunteering at the support group to help others struggling with addiction.
+
+Story:
+Moved by the support he has received, John decides he wants to give back. He talks to Karen about volunteering, and she enthusiastically welcomes his offer. John begins helping set up meetings, greeting newcomers, and sharing his story to offer hope and encouragement. The act of helping others gives him a sense of fulfillment and strengthens his resolve to stay sober. His new role also deepens his connections within the group, and he starts to feel like a valued member of the community.
+
+Ending 6
+
+:: Leaving Early {"position":"1625,1200","size":"100,100"}
+Scene:
+John leaves the meeting early but promises himself to try again next time.
+
+Story:
+Feeling overwhelmed, John quietly slips out of the room and heads home. The emotions stirred up by the meeting leave him feeling raw and exposed, but he knows he can’t give up. As he sits in his apartment, he reflects on the courage it took to attend the meeting in the first place. He promises himself that he will go back and try again, understanding that recovery is a process and that he needs to be patient with himself.
+
+Choices:
+
+Decide to attend the next meeting, feeling more prepared for the emotional challenges.[[Overcoming Emotional Hurdles]]
+Consider seeking additional support through therapy to help manage his emotions.[[Professional Help and Recovery]]
+
+:: Overcoming Emotional Hurdles {"position":"1625,1375","size":"100,100"}
+Scene: 
+John balances attending the support group with seeking therapy, finding a path to recovery.
+
+Story:
+John continues to attend the support group while also seeking help from a therapist. The combination of community support and professional guidance helps him navigate the emotional hurdles of his recovery journey. He learns healthy coping mechanisms and gradually builds a life free from alcohol. The dual support systems provide him with a solid foundation, and he begins to thrive both personally and professionally. John’s journey is marked by perseverance and growth, and he emerges stronger and more resilient, ready to face whatever challenges come his way.
+
+Ending 5
+
+:: Finding Strength in Community {"position":"1250,1350","size":"100,100"}
+Scene: 
+John continues attending the support group, takes up a new hobby, and eventually participates in a local art show.
+
+Story:
+With the support of the group and his newfound passion for painting, John’s life starts to change. He finds joy in creating art and shares his progress with the group, inspiring others to explore their own interests. His confidence grows, and he decides to participate in a local art show, showcasing his work. The event is a success, and John feels a deep sense of accomplishment. He continues to attend the support group, finding strength in the community and helping others along the way. John’s journey isn’t easy, but with the support of his new friends and his passion for art, he finds a way to live a fulfilling and sober life.
+
+Ending 4
+
+:: Putting It Off {"position":"1475,25","size":"100,100"}
+Scene: John decides to put off seeking professional help, opting to deal with his problems later.
+
+Story:
+John pushes the list of therapists aside and tries to focus on something else. The day drags on, with the familiar routines of work and chores failing to distract him from the gnawing sense of emptiness. By evening, he finds himself once again battling the urge to drink. The cycle continues, and the weight of his unaddressed problems grows heavier.
+
+Choices:
+
+Find solace in alcohol, falling deeper into the cycle of addiction.[[Falling Deeper into Addiction]]
+Consider attending a support group, feeling the pressure to find some form of help.[[Finding Hope through Support]]
+
+
+:: Falling Deeper into Addiction {"position":"1675,75","size":"100,100"}
+Scene: 
+John finds solace in alcohol, falling deeper into the cycle of addiction.
+
+Story:
+John reaches for the bottle of brandy, convincing himself it’s the only way to dull the pain. Each drink numbs his mind and emotions, but the relief is temporary. As the days turn into weeks, his dependency on alcohol grows. His work performance declines, his relationships with friends and family deteriorate, and he isolates himself further. The spiral of addiction tightens around him, making it harder to break free.
+
+Choices:
+
+[[Succumbing to the Struggle]] 

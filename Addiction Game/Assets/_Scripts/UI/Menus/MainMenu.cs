@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,8 +10,33 @@ public class MainMenu : MonoBehaviour
     //[SerializeField] private GameObject OptionsScreen;
     //[SerializeField] private GameObject CreditsScreen;
     [SerializeField] private GameObject RacingGameModesScreen;
+    [Space]
+    [SerializeField] private Button StartButton;
+    [SerializeField] private Button CreditsButton;
+    [SerializeField] private Button OptionsButton;
+    [SerializeField] private Button QuitButton;
+    [SerializeField] private Button BackButton;
 
-    public void BackButtonClicked()
+    private void Start()
+    {
+        MainScreen.SetActive(true);
+        StartButton.onClick.AddListener(StartGame);
+        CreditsButton.onClick.AddListener(GoToCredits);
+        OptionsButton.onClick.AddListener(GoToOptions);
+        QuitButton.onClick.AddListener(QuitGame);
+        BackButton.onClick.AddListener(BackButtonClicked);
+    }
+
+    private void OnDestroy()
+    {
+        StartButton.onClick.RemoveListener(StartGame);
+        CreditsButton.onClick.RemoveListener(GoToCredits);
+        OptionsButton.onClick.RemoveListener(GoToOptions);
+        QuitButton.onClick.RemoveListener(QuitGame);
+        BackButton.onClick.RemoveListener(BackButtonClicked);
+    }
+
+    private void BackButtonClicked()
     {
         //CreditsScreen.SetActive(false);
         //OptionsScreen.SetActive(false);
@@ -18,39 +44,24 @@ public class MainMenu : MonoBehaviour
         RacingGameModesScreen.SetActive(false);
     }
 
-    public void GoToCredits()
+    private void StartGame()
+    {
+        SceneManagerScript.Instance.LoadScene(Scenes.Level1);
+    }
+
+    private void GoToCredits()
     {
         //CreditsScreen.SetActive(true);
         MainScreen.SetActive(false);
     }
-    public void GoToOptions()
+
+    private void GoToOptions()
     {
         //OptionsScreen.SetActive(true);
         MainScreen.SetActive(false);
     }
 
-    public void GoToRacingGameModes()
-    {
-        MainScreen.SetActive(false);
-        RacingGameModesScreen.SetActive(true);
-    }
-
-    public void StartCheckpointDialogue()
-    {
-        SceneManagerScript.Instance.LoadScene(Scenes.Checkpoint_Dialogue);
-    }
-
-    public void StartBeginnerDialogue()
-    {
-        SceneManagerScript.Instance.LoadScene(Scenes.Beginner_Dialogue);
-    }
-
-    public void StartAdvancedDialogue()
-    {
-        SceneManagerScript.Instance.LoadScene(Scenes.Advanced_Dialogue);
-    }
-
-    public void QuitGame()
+    private void QuitGame()
     {
         Application.Quit();
     }
